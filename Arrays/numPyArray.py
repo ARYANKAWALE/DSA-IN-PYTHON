@@ -2,8 +2,6 @@ from numpy import *
 
 # val = array([1,2,3])
 
-
-
 # Heterogeneuos
 
 # val=array = ([2,6,4.6])
@@ -11,8 +9,6 @@ from numpy import *
 
 # for x in val:
 #     print(x ,end=" ")
-
-
 
 
 # val =array ([8,5,9],float)
@@ -27,13 +23,10 @@ from numpy import *
 #     print(x,end=" ")
 
 
-
 # val = arange(10,15,2)
 
 # for x in val:
-#     print(x,end=" ")
-
-
+ #     print(x,end=" ")
 
 # val = logspace(10,20,2)
 

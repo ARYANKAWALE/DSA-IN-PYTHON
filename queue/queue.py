@@ -10,7 +10,8 @@ class Queue:
 
     def delete(self):
         if(self.isEmpty()):
-            print("Queue is empty")
+            raise Exception("Queue is empty")
+            # print("Queue is empty")
         else:
             return self.items.pop(0)
 
@@ -19,3 +20,6 @@ q.insert(10)
 q.insert(20)
 q.insert(30)
 print(q.delete())
+print(q.delete())
+print(q.delete())
+q.delete()
