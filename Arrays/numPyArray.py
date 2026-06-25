@@ -35,6 +35,7 @@ from numpy import *
 
 # val = zeros(10)
 # val = ones(5)
+# val = full(10,5)
 # for x in val:
 #     print(x,end=" ")
 
