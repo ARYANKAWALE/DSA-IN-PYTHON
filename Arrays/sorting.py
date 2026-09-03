@@ -12,7 +12,7 @@ def twoSum(arr,target):
             right -= 1
     return "Empty error"
 arr = [5,8,7,2]
-target = 12
+target = 23
 print(arr , "unsorted")
 print(arr, "sorted")
 print(twoSum(arr,target))
