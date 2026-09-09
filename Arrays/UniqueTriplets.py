@@ -9,9 +9,9 @@ while left < right:
         result.append([arr[left],arr[right]])
         left +=1
         right-=1
-        while left < right and arr[left] == arr[left - 1]:
+        while arr[left] == arr[left - 1]:
             left += 1
-        while left < right and arr[right] == arr[right + 1]:
+        while arr[right] == arr[right + 1]:
             right -= 1
     elif(current_sum < target):
         left+=1
