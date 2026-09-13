@@ -1,4 +1,4 @@
-num = [2,5,6,7,8,9,10]
+num = [2,5,6,7,8,10]
 smallest = num[0]
 greatest = num[0]
 sum = 0
