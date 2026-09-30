@@ -1,6 +1,7 @@
 arr = [100,200,300,400]
+k = 2
 low = 0 
-high = 1
+high = k - 1
 window_sum = 0
 n = len(arr)
 res = 0
