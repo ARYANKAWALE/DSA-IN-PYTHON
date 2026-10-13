@@ -25,7 +25,6 @@ class SinglyLinkedlist:
     def insertInMid(self,value,x):
         temp = Node(value)
         t1 = self.head
-
         while(t1.next != None):
             if(t1.data == x):
                 temp.next = t1.next
@@ -55,10 +54,10 @@ class SinglyLinkedlist:
         print(t1.data)
 
 obj = SinglyLinkedlist()
-obj.insertAtEnd(10)
-obj.insertAtEnd(20)
-obj.insertAtEnd(30)
-obj.insertAtBeg(5)
-obj.insertInMid(40,20)
-obj.deleteLL(30)
+obj.insertAtEnd(1)
+obj.insertAtEnd(2)
+obj.insertAtEnd(3)
+# obj.insertAtBeg(4)
+obj.insertInMid(5,2)
+# obj.deleteLL(30)
 obj.printLL()
