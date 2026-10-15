@@ -17,10 +17,19 @@ class Linkedlist:
 
         if(t == None):
             return
+    def printWithAddress(self):
+        t = self.head
+        while t != None:
+            print(f"Data: {t.data} -> Memory Address: {hex(id(t))}")
+            t = t.next
+        print()
 
 obj = Linkedlist()
 second = Node(20)
 third = Node(30)
+fourth = Node(40)
 obj.head = Node(10,second)
 second.next = third
+third.next = fourth
 obj.printAllNumbers()
+obj.printWithAddress()
