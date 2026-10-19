@@ -28,14 +28,14 @@ class Linkedlist:
         print(t1.data)
 
     def findCycle(self):
+        if self.head == None:
+            return False
         slow = self.head
+        fast = self.head
         while(fast != None and fast.next != None):
             slow = slow.next
             fast = fast.next.next
-            if(slow == fast):
-                return True
-            else:
-                return False
+        return slow == fast
 
 
 obj = Linkedlist()
@@ -49,4 +49,3 @@ obj.insertAtBeg(70)
 print(obj.findMiddle().data)
 obj.printLL()
 print(obj.findCycle())
-print(obj.startPoint())
