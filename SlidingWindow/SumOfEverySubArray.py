@@ -1,7 +1,7 @@
 arr = [1,2,3,4,5]
 k = 3
 low = 0
-high = 2
+high = k - 1
 result = []
 n = len(arr)
 maxVal = float('-inf')
@@ -11,5 +11,5 @@ while high < n:
     result.append(maxVal)
     low+=1
     high+=1
-    
+
 print(result)
